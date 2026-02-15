@@ -27,6 +27,8 @@ yarn-error.log*
 
 # Testing
 /coverage
+coverage.txt
+coverage_output*.txt
 .vercel
 
 # TypeScript
