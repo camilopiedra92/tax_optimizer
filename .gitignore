@@ -1,31 +1,41 @@
 # System Files
 .DS_Store
 Thumbs.db
+*.pem
 
 # Dependencies
-node_modules/
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 .npm-cache/
+npm-cache/
+
+# Next.js
+/.next/
+/out/
+/build
 
 # Environment Variables
 .env
-.env.local
-.env.*.local
+.env*.local
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build Outputs
-dist/
-build/
-coverage/
+# Testing
+/coverage
+.vercel
 
-# IDEs
-.idea/
-.vscode/
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
 # Project Specific
+.tmp/
+scripts/dist/
 tmp/
 temp_excel_reader/
 .temp_excel_reader/
